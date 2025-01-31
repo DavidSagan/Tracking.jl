@@ -6,7 +6,7 @@ function drift(u, p, t)
   px_rel = u[2] / rel_pc
   py_rel = u[4] / rel_pc
   pxy2 = px_rel^2 + py_rel^2
-  ps_rel = sqrt(1 - pxy2)
+  ps_rel = sqrt(1.0 - pxy2)
 
   utyp = typeof(u[1])
   du = Vector{utyp}(undef, length(u))
