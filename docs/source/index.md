@@ -4,14 +4,14 @@ This standard is an effort to create a standard to promote lattice information e
 
 ```{toctree}
 :maxdepth: 1
-:caption: Front Matter
+:caption: Formulas
 
-how-to-write-docs.md
+drift.md
 ```
 
 ```{toctree}
 :maxdepth: 1
-:caption: Formulas
+:caption: Back Matter
 
-drift.md
+how-to-write-docs.md
 ```
